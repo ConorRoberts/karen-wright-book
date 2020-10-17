@@ -1,0 +1,139 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:/Users/jstimson/Creative Cloud Files/2020 Launches/November 12/Wright/Wright_Accidental Alpha Woman__KDP_PRINT_CVR_5x8_D Folder/Document fonts/AdobeFnt22.lst
+FileLength:3695
+FileModTime:624384053
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Bikarosta-Script
+FamilyName:Bikarosta
+StyleName:Script
+MenuName:Bikarosta
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Bikarosta Script
+WritingScript:Roman
+OutlineFileName:/Users/jstimson/Creative Cloud Files/2020 Launches/November 12/Wright/Wright_Accidental Alpha Woman__KDP_PRINT_CVR_5x8_D Folder/Document fonts/Bikarosta-Script.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:161752
+FileModTime:584984320
+NameArray:0,Mac,18,Bikarosta Script
+NameArray:0,Mac,4,Bikarosta Script
+NameArray:0,Win,1,Bikarosta
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Bikarosta-Swash
+FamilyName:Bikarosta
+StyleName:Swash
+MenuName:Bikarosta
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Bikarosta Swash
+WritingScript:Roman
+OutlineFileName:/Users/jstimson/Creative Cloud Files/2020 Launches/November 12/Wright/Wright_Accidental Alpha Woman__KDP_PRINT_CVR_5x8_D Folder/Document fonts/Bikarosta-Swash.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:79832
+FileModTime:584984320
+NameArray:0,Mac,18,Bikarosta Swash
+NameArray:0,Mac,4,Bikarosta Swash
+NameArray:0,Win,1,Bikarosta
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GaramondPremrPro-It
+FamilyName:Garamond Premier Pro
+StyleName:Italic
+MenuName:Garamond Premr Pro
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Garamond Premier Pro Italic
+WritingScript:Roman
+OutlineFileName:/Users/jstimson/Creative Cloud Files/2020 Launches/November 12/Wright/Wright_Accidental Alpha Woman__KDP_PRINT_CVR_5x8_D Folder/Document fonts/GaramondPremrPro-It.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:392240
+FileModTime:573565150
+DesignSize:60
+NameArray:0,Mac,18,Garamond Premr Pro It
+NameArray:0,Mac,4,Garamond Premier Pro Italic
+NameArray:0,Win,1,Garamond Premr Pro
+NameArray:0,Win,16,Garamond Premier Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GaramondPremrPro
+FamilyName:Garamond Premier Pro
+StyleName:Regular
+MenuName:Garamond Premier Pro
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Garamond Premier Pro
+WritingScript:Roman
+OutlineFileName:/Users/jstimson/Creative Cloud Files/2020 Launches/November 12/Wright/Wright_Accidental Alpha Woman__KDP_PRINT_CVR_5x8_D Folder/Document fonts/GaramondPremrPro.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:359116
+FileModTime:595178837
+DesignSize:110
+NameArray:0,Mac,18,Garamond Premr Pro
+NameArray:0,Mac,4,Garamond Premier Pro
+NameArray:0,Win,1,Garamond Premier Pro
+NameArray:0,Win,16,Garamond Premier Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ZapfDingbatsITC
+FamilyName:Zapf Dingbats
+StyleName:Regular
+MenuName:Zapf Dingbats
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Zapf Dingbats
+WritingScript:Roman
+OutlineFileName:/Users/jstimson/Creative Cloud Files/2020 Launches/November 12/Wright/Wright_Accidental Alpha Woman__KDP_PRINT_CVR_5x8_D Folder/Document fonts/ZapfDingbats.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:156088
+FileModTime:624384052
+NameArray:0,Mac,4,Zapf Dingbats
+%EndFont
+

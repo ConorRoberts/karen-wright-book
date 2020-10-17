@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Garamond Premiere Pro';
+    src: url(./assets/Fonts/GaramondPremrPro.otf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+*{margin:0;padding:0;box-sizing:border-box;}
+html{font-size:62.5%;font-family:'Garamond Premiere Pro',sans-serif;}
+
+main{
+    display:flex;
+    height:100vh;
+
+    section{
+        width:50%;
+        flex-direction:column;
+        z-index:10;
+        font-size:2rem;
+        .offset-pink-blob{
+            position:absolute;
+            left:-30%;
+            z-index:-1;
+        }
+        overflow:hidden;
+    }
+    
+    .book-splash{
+        display:flex;
+        justify-content:center;
+        align-items:center;
+
+        .main-splash-image{
+            height:100vh;
+            transform:scale(1.08);
+        }
+    }
+    .text-content{
+        padding:4rem;
+    }
+    
+}
