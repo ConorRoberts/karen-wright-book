@@ -92,15 +92,20 @@ main .text-content ul li {
   padding: 0.4rem 0;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1500px) {
+  main .karen-container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
   main .content-wrapper {
     width: 100%;
     margin: 0;
   }
-  main .karen-container {
+  main .content-wrapper .karen-container {
     flex-direction: column;
   }
-  main .karen-container img {
+  main .content-wrapper .karen-container img {
     transform: scale(1);
     width: 100%;
   }
