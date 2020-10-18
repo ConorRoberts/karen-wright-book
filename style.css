@@ -16,31 +16,79 @@ html {
   font-family: "Garamond Premiere Pro", sans-serif;
 }
 
+h1 {
+  color: #ce979e;
+  font-size: 5rem;
+  letter-spacing: 0.1rem;
+  text-align: center;
+}
+
 main {
   display: flex;
-  height: 100vh;
-}
-main section {
-  width: 50%;
   flex-direction: column;
-  z-index: 10;
-  font-size: 2rem;
+  align-items: center;
+  position: relative;
   overflow: hidden;
 }
-main section .offset-pink-blob {
+main .karen-container {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  margin: 2rem 3rem;
+  border-top: 3px solid #e2a4ae;
+  border-bottom: 3px solid #e2a4ae;
+}
+main .karen-container > * {
+  padding: 2rem;
+}
+main .karen-container span {
+  font-weight: 600;
+}
+main .karen-container img {
+  transform: scale(0.9);
+  filter: drop-shadow(0 0 3px black);
+  border-radius: 50%;
+}
+main .content-wrapper {
+  margin: 2vh auto;
+  width: 50%;
+  box-shadow: 0px 0px 20px #b1b1b1;
+}
+main .offset-pink-blob-left, main .offset-pink-blob-right {
   position: absolute;
-  left: -30%;
   z-index: -1;
+  transform: scaleY(2);
+}
+main .offset-pink-blob-left {
+  left: 83%;
+}
+main .offset-pink-blob-right {
+  right: 83%;
+}
+main section {
+  z-index: 10;
+  font-size: 2rem;
 }
 main .book-splash {
   display: flex;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  padding-top: 10rem;
 }
 main .book-splash .main-splash-image {
   height: 100vh;
-  transform: scale(1.08);
+  transform: scale(1);
+  filter: drop-shadow(0px 0px 10px #747474);
 }
 main .text-content {
   padding: 4rem;
+}
+main .text-content > * {
+  padding: 1rem 0;
+}
+main .text-content ul {
+  padding-left: 2rem;
+}
+main .text-content ul li {
+  padding: 0.4rem 0;
 }
