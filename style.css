@@ -30,6 +30,19 @@ main {
   position: relative;
   overflow: hidden;
 }
+main .blob-container-left, main .blob-container-right {
+  position: absolute;
+  overflow: hidden;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+}
+main .blob-container-left {
+  left: -30%;
+}
+main .blob-container-right {
+  right: -30%;
+}
 main .karen-container {
   display: flex;
   align-items: center;
@@ -54,30 +67,30 @@ main .content-wrapper {
   width: 50%;
   box-shadow: 0px 0px 20px #b1b1b1;
 }
-main .offset-pink-blob-left, main .offset-pink-blob-right {
-  position: absolute;
-  z-index: -1;
-  transform: scaleY(2);
-}
-main .offset-pink-blob-left {
-  left: 83%;
-}
-main .offset-pink-blob-right {
-  right: 83%;
-}
 main section {
   z-index: 10;
   font-size: 2rem;
 }
 main .book-splash {
+  position: relative;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 10rem;
+  margin-top: 4vh;
+  padding: 2rem;
 }
 main .book-splash .main-splash-image {
+  margin-top: 4vh;
   height: 100vh;
   filter: drop-shadow(0px 0px 10px #747474);
+}
+main .book-splash span {
+  z-index: 20;
+  position: absolute;
+  transform: rotate(-20deg);
+  font-size: 4.5rem;
+  left: 10%;
+  top: 18%;
 }
 main .text-content {
   padding: 4rem;
@@ -117,11 +130,11 @@ main .text-content ul li {
     height: auto;
     object-fit: contain;
   }
-  main .offset-pink-blob-left {
-    left: 70%;
+  main .blob-container-left {
+    left: -60%;
   }
-  main .offset-pink-blob-right {
-    right: 70%;
+  main .blob-container-right {
+    right: -60%;
   }
 
   h1 {
